@@ -1,0 +1,18 @@
+package com.codegnan.patternexamples;
+
+public class Pattern_01 {
+
+	public static void main(String[] args) {
+		
+		//outer for loop talks about rows here i as a row
+		for(int i=1;i<=10;i++) {
+			//inner for loop talks about inner for loop
+			for(int j=1;j<=10;j++) {
+				System.out.print("* ");
+			}
+				System.out.println();
+			
+		}
+	}
+
+}
